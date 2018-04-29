@@ -2,6 +2,10 @@ import { cloneDeep } from 'lodash'
 import { IPreassureCalculatorResult, IPressureCalculatorData } from './interfaces'
 import { validateInput } from './validateInput';
 
+/* 
+    Algorithm is taken based on article from:
+    bikequaterly.com
+*/
 export const calculatePreassure = (userData: IPressureCalculatorData): IPreassureCalculatorResult => {
     validateInput(userData)
     
