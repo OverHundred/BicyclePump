@@ -85,3 +85,7 @@ package-lock.json
 
 /coverage
 /third-party
+
+# Jest
+#
+.jest/
