@@ -12,6 +12,7 @@ export default class App extends React.Component {
             maximumValue={100}
             minimumValue={0}
             step={1}
+            value=
           />
         </View>
       </View>
