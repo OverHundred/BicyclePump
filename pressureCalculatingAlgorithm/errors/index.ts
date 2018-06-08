@@ -1,0 +1,5 @@
+export * from './wrongBikeWeightException'
+export * from './wrongMaxPreassureException'
+export * from './wrongMinPreassureException'
+export * from './wrongRiderWeightException'
+export * from './wrongTireWidthException'
