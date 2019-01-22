@@ -29,14 +29,14 @@ export const calculatePreassure = (userData: IPressureCalculatorData): IPreassur
 export const putPreassureBetweenMinAndMax = (calculatedValues: IPreassureCalculatorResult, userData: IPressureCalculatorData) => {
     let newCalculatedValues = cloneDeep(calculatedValues)
 
-    if (newCalculatedValues.front > userData.maxPreassure)
+    if (newCalculatedValues.front > userData.maxPreassure + 5)
         newCalculatedValues.front = userData.maxPreassure
-    else if (newCalculatedValues.front < userData.minPreassure)
+    else if (newCalculatedValues.front < userData.minPreassure - 5)
         newCalculatedValues.front = userData.minPreassure
 
-    if (newCalculatedValues.back > userData.maxPreassure)
+    if (newCalculatedValues.back > userData.maxPreassure + 5)
         newCalculatedValues.back = userData.maxPreassure
-    else if (newCalculatedValues.back < userData.minPreassure)
+    else if (newCalculatedValues.back < userData.minPreassure - 5)
         newCalculatedValues.back = userData.minPreassure
 
     return newCalculatedValues

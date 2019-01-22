@@ -4,20 +4,20 @@
   "private": true,
   "devDependencies": {
     "@types/jest": "^22.2.3",
-    "@types/lodash": "^4.14.108",
-    "@types/react": "^16.3.13",
-    "@types/react-native": "^0.55.8",
-    "@types/react-test-renderer": "^16.0.1",
+    "@types/lodash": "^4.14.120",
+    "@types/react": "^16.7.20",
+    "@types/react-native": "^0.55.28",
+    "@types/react-test-renderer": "^16.0.3",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.4",
     "jest-expo": "26.0.0",
     "react-native-scripts": "1.13.2",
-    "react-native-typescript-transformer": "^1.2.9",
+    "react-native-typescript-transformer": "^1.2.11",
     "react-test-renderer": "16.3.0-alpha.1",
-    "ts-jest": "^22.4.4",
-    "typescript": "^2.8.3"
+    "ts-jest": "^22.4.6",
+    "typescript": "^2.9.2"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -47,9 +47,9 @@
   },
   "dependencies": {
     "eslint": "^4.19.1",
-    "expo": "^26.0.0",
-    "npm": "^6.0.0",
-    "prop-types": "^15.6.1",
+    "expo": "^26.1.1",
+    "npm": "^6.6.0",
+    "prop-types": "^15.6.2",
     "react": "16.3.0",
     "react-native": "~0.54.1"
   }
